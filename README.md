@@ -1,4 +1,4 @@
-# Data Structures II Assignment I Lab
+# Data Structures II \| Assignment 1 \| Lab
 
 We are expected to implement the following:
 
