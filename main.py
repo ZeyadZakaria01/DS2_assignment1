@@ -82,7 +82,7 @@ if __name__ == "__main__":
         # delta = (t2 - t1) * 1e3  # time in ms
         # heap_list.append(delta)
 
-    plt.title("A chart prepresenting the runtime of the sorting algorithms")
+    plt.title("A chart representing the runtime of the sorting algorithms")
     plt.xlabel("Length of the Array")
     plt.ylabel("Time(ms)")
     plt.plot(x_axis, selection_list, marker="o",
