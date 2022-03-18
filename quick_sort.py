@@ -2,8 +2,10 @@ import random
 
 
 def randomized_partition(A, low, high):
-    num = random.randint(low, high)
-    A[num], A[high], A[high], A[num]
+    rand_pivot = random.randint(low, high)
+
+    # swap random index with pivot index "high" in this implementation
+    A[rand_pivot], A[high], A[high], A[rand_pivot]
 
     return partition(A, low, high)
 
