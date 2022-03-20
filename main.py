@@ -76,11 +76,11 @@ if __name__ == "__main__":
         quick_list.append(delta)
 
         # heap sort
-        # t1 = time.time()
-        # heap_sort(F)
-        # t2 = time.time()
-        # delta = (t2 - t1) * 1e3  # time in ms
-        # heap_list.append(delta)
+        t1 = time.time()
+        heap_sort(F)
+        t2 = time.time()
+        delta = (t2 - t1) * 1e3  # time in ms
+        heap_list.append(delta)
 
     plt.title("A chart representing the runtime of the sorting algorithms")
     plt.xlabel("Length of the Array")
@@ -95,6 +95,9 @@ if __name__ == "__main__":
              color="grey", label="Merge Sort Algorithm")
     plt.plot(x_axis, quick_list, marker="v",
              color="blue", label="Quick Sort Algorithm")
+    plt.plot(x_axis, heap_list, marker="p",
+             color="violet", label="Heap Sort Algorithm")
+
     plt.legend()
     plt.show()
 # plt.plot(x_axis, heap_list, color="red", label="Heap Sort Algorithm")
