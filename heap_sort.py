@@ -1,7 +1,7 @@
 # heapfiy function is to ernsure that when you insert a new elment in the heap
 # it will have its appropiate parent/child(s)
 
-def heapify(A, n, i):
+def heapify(A, n, i):  # max_heapfiy
     root = i  # supposedly max elemnt in root
     left = i * 2 + 1
     right = i * 2 + 2
@@ -19,7 +19,7 @@ def heapify(A, n, i):
 # we assume that we are inserting element A[i] each time in the heap
 
 def build_heap(A, n):
-    start = n//2 - 1
+    start = n // 2 - 1
     for i in range(start, -1, -1):
         heapify(A, n, i)
 
@@ -29,6 +29,5 @@ def heap_sort(A):
     build_heap(A, n)
 
     for i in range(n-1, 0, -1):
-        A[i], A[0] = A[0], A[i]  # ascending sorting
-        # A[i], A[n-1] = A[0], A[n-1] #descending order
+        A[i], A[0] = A[0], A[i]
         heapify(A, i, 0)
