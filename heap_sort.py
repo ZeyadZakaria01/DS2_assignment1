@@ -32,8 +32,3 @@ def heap_sort(A):
         A[i], A[0] = A[0], A[i]  # ascending sorting
         # A[i], A[n-1] = A[0], A[n-1] #descending order
         heapify(A, i, 0)
-
-
-A = [4, 5, 0, 4500, 233]
-heap_sort(A)
-print(A)
