@@ -9,6 +9,6 @@ We are expected to implement the following:
 |       Bubble Sort       |   ✅   |
 |       Merge Sort        |   ✅   |
 |     RAND quick sort     |   ✅   |
-|        Heap Sort        |   ❌   |
+|        Heap Sort        |   ✅   |
 | Random Array Generation |   ✅   |
 |         Report          |   ❌   |
