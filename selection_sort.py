@@ -1,8 +1,10 @@
 
 """
+
 1) find min value
 2)swap min value with first index of the unsorted array
 3)repeat
+
 """
 
 

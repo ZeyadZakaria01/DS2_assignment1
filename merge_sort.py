@@ -1,3 +1,10 @@
+"""
+
+u divide big array and sort each subarray and then merge :)
+
+"""
+
+
 def merge_sort(A):
     if len(A) <= 1:
         return

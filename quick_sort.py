@@ -1,5 +1,11 @@
 import random
 
+"""
+
+(ｏ ‵-′)ノ”(ノ﹏<。)
+
+"""
+
 
 def randomized_partition(A, low, high):
     rand_pivot = random.randint(low, high)
