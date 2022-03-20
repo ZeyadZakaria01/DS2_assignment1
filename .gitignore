@@ -1,3 +1,4 @@
 test.py
 spam.py
 __pycache__
+.gitignore
