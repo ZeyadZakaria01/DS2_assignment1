@@ -85,16 +85,22 @@ if __name__ == "__main__":
     plt.title("A chart representing the runtime of the sorting algorithms")
     plt.xlabel("Length of the Array")
     plt.ylabel("Time(ms)")
+
     plt.plot(x_axis, selection_list, marker="o",
              color="lime", label="Selection Sort Algorithm")
+
     plt.plot(x_axis, insertion_list, marker="x",
              color="red", label="Insertion Sort Algorithm")
+
     plt.plot(x_axis, bubble_list, marker=">",
              color="pink", label="Bubbly Sort Algorithm")
+
     plt.plot(x_axis, merge_list, marker="<",
              color="grey", label="Merge Sort Algorithm")
+
     plt.plot(x_axis, quick_list, marker="v",
              color="blue", label="Quick Sort Algorithm")
+
     plt.plot(x_axis, heap_list, marker="p",
              color="violet", label="Heap Sort Algorithm")
 
