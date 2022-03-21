@@ -1,4 +1,3 @@
-
 """
 
 1) find min value
@@ -15,4 +14,4 @@ def selection_sort(A):
         for j in range(i+1, n):
             if A[min] > A[j]:
                 min = j
-        A[j], A[min] = A[min], A[j]
+        A[i], A[min] = A[min], A[i]
